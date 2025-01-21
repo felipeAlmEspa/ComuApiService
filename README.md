@@ -1,8 +1,1 @@
-[
-    {
-        "id": 1,
-        "nombres": "Felipe",
-        "apellidos": "Quichimbo",
-        "telefono": "0987159087"
-    }
-]
+Sin datos

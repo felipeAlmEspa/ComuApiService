@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake API</title>
+</head>
+<body>
+    <script>
+        // Simular una API al responder con JSON
+        document.addEventListener("DOMContentLoaded", function () {
+            const data = [
+                {
+                    "id": 1,
+                    "nombres": "Felipe",
+                    "apellidos": "Quichimbo",
+                    "telefono": "0987159087"
+                }
+            ];
+
+            // Responder con datos JSON al realizar fetch
+            if (location.pathname === "/") {
+                const jsonResponse = JSON.stringify(data);
+                document.write(jsonResponse);
+            }
+        });
+    </script>
+</body>
+</html>
